@@ -1,0 +1,20 @@
+#first{
+    color: rgb(188, 89, 13);
+    background-color: rgb(95, 39, 200);
+    height: 80px;
+    width: 80px;
+}
+#second{
+    color: darkgoldenrod;
+    background-color: cyan;
+    background-image: url(../image/youtube.png);
+    height: 190px;
+    width: 190px;
+    font-size: xx-large;
+
+}
+button{
+    color: rgb(0, 0, 0);
+    background-color: rgba(23,198,76,5);
+}
+

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture8</title>
+</head>
+<body>
+    <!--Ordered lists are used for creating lists with items that have a specific order-->
+    <ol type="A">
+        <li>wake up</li>
+        <li>Brushup</li>
+        <li>take a shower</li>
+    </ol><hr>
+    <!--Unordered lists are used for lists where the order of items doesn't matter-->
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Cherry</li>
+    </ul><hr>
+    <!--Table tag use for creat html table-->
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Jyoti</td>
+            <td colspan="2">30</td>
+            <td>jyotismita2005@gmail.com</td>
+        </tr>
+    </table><hr>
+    <!--Use to create form which take input from user-->
+    <form>
+        Text: <input type="text" placeholder="Enter user name"><br><br>
+        password: <input type="password" placeholder="Enter password"><br><br>
+        Birthday: <input type="date"><br><br>
+    File: <input type="file"><br><br>
+    <input type="color"><br><br>
+    <input type="range"><br><br>
+    <input type="button" value="Click me"><br><br>
+    <input type="submit">
+    </form><hr>
+    <!--Radio tag use for choose only one option from multiple-->
+    <form>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male"><br>
+
+        <label for="female">female</label>
+        <input type="radio" id="female" name="gender" value="female"><br>
+
+        <label for="other">other</label>
+        <input type="radio" id="other" name="gender" value="other"><br>
+    </form><br><hr>
+    <!--Use checkbox to choose multiple option-->
+    <form>
+        <label for="apple">Apple</label>
+        <input type="checkbox" id="apple" name="fruit" value="apple"><br>
+
+        <label for="banana">Banana</label>
+        <input type="checkbox" id="banana" name="fruit" value="banana"><br>
+
+        <label for="cherry">Cherry</label>
+        <input type="checkbox" id="cherry" name="fruit" value="cherry"><br><hr>
+    </form>
+    <form>
+        <label for="fruits">Choose a fruit:</label>
+        <select name="fruits" id="fruits">
+            <option value="apple">Apple</option>
+            <option value="banana">Banana</option>
+            <option value="Cherry">Cherry</option>
+        </select>
+    </form><br><hr>
+    <textarea rows="6" column="4">
+        Default text
+    </textarea>
+</body>

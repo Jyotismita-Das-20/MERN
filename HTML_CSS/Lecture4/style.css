@@ -1,0 +1,34 @@
+h1{
+    /*The css property color property defines the text color or foreground color in an html element*/ 
+    font-size: 30px;
+    background-color: aqua;
+    color: brown;
+}
+
+h4{
+    font-size: larger;
+    font-style: italic;
+}
+
+*{
+    /*universal selector written using star(*)*/
+    background-color: rgb(238, 255, 113);
+}
+
+#heading{
+    /*here use of i'd selector*/
+    color: crimson;
+}
+
+.para{
+    /*here use of class selector*/
+    color: blue;
+}
+h5,h6{
+    color: darkgreen;
+}
+div h1{
+    /*Use of descedant selector*/
+    color: rgb(167, 102, 4);
+}
+
