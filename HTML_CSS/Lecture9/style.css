@@ -1,0 +1,29 @@
+.box{
+    height:100px;
+    width: 100px;
+}
+#box1{
+    background-color: chartreuse;
+    text-align: center;
+    border-radius: 90px;
+}
+#box2{
+    background-color: rgb(234, 39, 25);
+    text-align: left;
+}
+#box3{
+    background-color: rgb(32, 37, 107);
+    text-align: right;
+}
+#boxs1{
+    text-decoration: underline;
+}
+#boxs2{
+    text-decoration: overline;
+}
+#fbox1{
+    text-transform: capitalize;
+}
+#fbox2{
+    text-transform:uppercase;
+}

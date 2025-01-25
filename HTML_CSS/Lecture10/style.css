@@ -1,0 +1,23 @@
+#first{
+    line-height: 10px;
+}
+#second{
+    line-height: 30px;
+}
+#third{
+    font-size: 10px;
+}
+#fourth{
+    font-size: 25px;
+}
+#para1{
+    font-weight: 100;
+    font-style: italic;
+}
+#para2{
+    font-weight: 900;
+    font-style: oblique;
+}
+#para3{
+    font-family: 'Times New Roman', Times, serif;
+}
