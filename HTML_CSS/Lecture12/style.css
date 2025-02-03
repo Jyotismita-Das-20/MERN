@@ -1,0 +1,94 @@
+#box1{
+    background-color: chartreuse;
+    height: 60px;
+    width: 90px;
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+    border-radius: 9px;
+}
+#box2{
+    background-color: chartreuse;
+    height: 60px;
+    width: 90px;
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+    border-radius: 9px;
+}
+#box3{
+    background-color: rgb(0, 178, 205);
+    height: 60px;
+    width: 90px;
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+    border-radius: 9px;
+    float:right ;
+}
+#box4{
+    background-color:rgb(0, 178, 205);
+    height: 60px;
+    width: 90px;
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+    border-radius: 9px;
+}
+.container1{
+    background-color: chocolate;
+    width: 90%;
+    height: 90%;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+#box5{
+    background-color:rgb(113, 12, 78);
+    height: 60px;
+    width: 90px;
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+    border-radius: 9px;
+}
+#box6{
+    background-color:rgb(43, 178, 120);
+    height: 60px;
+    width: 90px;
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+    border-radius: 9px;
+}
+#box7{
+    background-color:rgb(231, 97, 49);
+    height: 60px;
+    width: 90px;
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+    border-radius: 9px;
+}
+#box8{
+    background-color:rgb(49, 94, 101);
+    height: 60px;
+    width: 90px;
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+    border-radius: 9px;
+}
+.container2{
+    background-color: rgb(210, 30, 84);
+    width: 90%;
+    height: 90%;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
