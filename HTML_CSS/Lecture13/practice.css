@@ -1,0 +1,22 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-color: chartreuse;
+    padding: 5px;
+    color: whitesmoke;
+}
+.menu{
+
+}
+li{
+    margin-left: 30px;
+    display: inline-block;
+    font-size: 35px;
+    justify-content: space-between;
+}
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
