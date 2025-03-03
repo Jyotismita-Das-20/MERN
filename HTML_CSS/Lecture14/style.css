@@ -1,0 +1,21 @@
+[type]{
+  margin: 10px;
+}
+[placeholder]{
+  background-color: aqua;
+}
+.hello{
+  height: 100px;
+  width: 100px;
+  background-color: rgb(200, 61, 19);
+  margin: 10px;
+}
+.hello:hover{
+  background-color: chartreuse;
+}
+.hell{
+  height: 100px;
+  width: 100px;
+  background-color: rgb(200, 61, 19);
+}
+

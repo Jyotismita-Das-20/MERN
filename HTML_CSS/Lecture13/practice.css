@@ -3,12 +3,13 @@
     margin: 0px;
 }
 header{
-    background-color: chartreuse;
+    background-color: #005485;
     padding: 5px;
     color: whitesmoke;
 }
 .menu{
-
+    display: flex;
+    justify-content: space-around;
 }
 li{
     margin-left: 30px;
@@ -19,4 +20,42 @@ li{
 a{
     color: whitesmoke;
     text-decoration: none;
+}
+main{
+    height: 600px;
+}
+body{
+    background-color: rgb(176, 25, 159);
+}
+footer{
+    background-color: rgb(0, 84, 133);
+    padding: 25px 0px;
+    color: beige;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+.my-circle{
+    width: 200px;
+    background-color: rgb(50, 162, 27);
+    height: 200px;
+    margin: 25px;
+    border-radius: 50%;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(180, 219, 39);
+    margin: 5px;
+    display: inline-block;
+}
+#fixed-box{
+    position: fixed;
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    background-color: chocolate;
+    right: 10px;
 }
