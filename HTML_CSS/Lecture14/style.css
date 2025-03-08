@@ -18,4 +18,31 @@
   width: 100px;
   background-color: rgb(200, 61, 19);
 }
-
+a{
+  color:rgb(18, 67, 67);
+  text-decoration: none;
+}
+a:hover{
+  color: deeppink;
+}
+.content{
+  width: 250px;
+  height: 150px;
+  background-color: darkgreen;
+  padding: 5px;
+  margin: 10px;
+  border: 2px solid black;
+  margin-bottom: 10px;
+}
+#visible{
+  overflow: visible;
+}
+#hidden{
+  overflow: hidden;
+}
+#scroll{
+  overflow: scroll;
+}
+#auto{
+  overflow: auto;
+}
