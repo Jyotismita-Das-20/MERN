@@ -1,0 +1,17 @@
+div{
+  width: 200px;
+  height: 150px;
+  background-color: blue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: solid;
+  border-color: black;
+  box-shadow: 15px 15px 9px rgba(0, 0, 0, 0.9);
+}
+.container{
+  background-color: var(--main-bg-color);
+  display: flex;
+}
