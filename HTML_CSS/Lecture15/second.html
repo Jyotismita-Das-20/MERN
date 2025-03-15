@@ -5,16 +5,25 @@
   <style>
     .box{
       background-color: coral;
-      height: 100px;
-      width: 100px;
+      height: 10px;
+      width: 10px;
       display: flex;
       align-items: center;
       justify-content: center;
       border-radius: 10px;
     }
-    @media (width:500px){
+    @media (width:501px){
       .box{
         border:10px solid black;
+        height: 100px;
+        width: 100px;
+      }
+    }
+
+    @media (min-width:405px){
+      .box{
+        height: 150px;
+        width: 150px;
       }
     }
   </style>
