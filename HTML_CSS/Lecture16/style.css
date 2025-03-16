@@ -1,0 +1,33 @@
+.box{
+  height: 100px;
+  width: 100px;
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  transition-property: all;
+  transition-duration: 5s;
+  margin: 10px;
+}
+.box:hover{
+  background-color: blueviolet;
+  width: 50px;
+  transform: translate(300px, 100px);
+}
+#box1:hover{
+  transform: rotate(90deg);
+  transform: scale(2);
+}
+#box2:hover{
+  transform: rotatex(90deg);
+  transform: scale(0.1);
+}
+#box3:hover{
+  transform: skew(-45deg);
+}
+#box3:hover{
+  transform: rotatez(90deg);
+}
