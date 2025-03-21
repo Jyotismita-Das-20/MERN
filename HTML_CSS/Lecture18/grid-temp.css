@@ -1,0 +1,39 @@
+.container{
+  display: grid;
+  grid-template-rows: 200px 1fr 100px;
+  grid-template-columns: 300px 1fr 1fr;
+  grid-template-areas: 
+  "top top top"
+  "burger items items"
+  "buttom buttom buttom";
+  gap: 5px;
+  height: 100vh;
+}
+
+.item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  border: 2px solid black;
+}
+
+.header{
+  grid-area: top;
+  background-color: aqua;
+}
+
+.footer{
+  background-color: cornflowerblue;
+  grid-area: buttom;
+}
+
+.sidemenu{
+  background-color: coral;
+  grid-area: burger;
+}
+
+.shoes{
+  background-color: palegreen;
+  grid-area: items;
+}
