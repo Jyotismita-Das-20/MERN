@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>First time executing JS</title>
+  <script>
+    console.log('Hello world');
+    function clickme(){
+      console.log('button clicked');
+      document.getElementById('my_para').innerHTML='This is a new paragraph';
+    }
+    function styleme(){
+        document.getElementById('my_para').style.color='red';
+      }
+  </script>
+</head>
+<body>
+  <h1>Welcome to JS world</h1>
+  <p id="my_para">This is a demo paragraph</p>
+  <button onclick="clickme()">change Me</button>
+  <button onclick="styleme()">style Me</button>
+</body>
+</html>
