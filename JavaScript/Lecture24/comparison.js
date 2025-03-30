@@ -5,3 +5,6 @@ if(marks>=90){
 }else if(marks>=70){
   console.log("B grade");
 }
+console.log(true&&true);
+console.log(true||false);
+console.log(!!true);
