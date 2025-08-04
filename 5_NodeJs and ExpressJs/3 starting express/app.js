@@ -6,14 +6,14 @@ const express = require('express');
 const app = express();
 
 //First Middleware
-app.use((req, res, next) => {
+app.use("/",(req, res, next) => {
   console.log('First Middleware',req.url, req.method);
   next(); // Pass control to the next middleware
 });
 
-app.use((req, res, next) => {
+app.use("/test",(req, res, next) => {
   console.log('Second Middleware',req.url, req.method);
-  next(); // Pass control to the next middleware
+  res.send('<h1>Start testing</h1>');
 });
 
 
